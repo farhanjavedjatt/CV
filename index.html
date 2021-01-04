@@ -7,9 +7,22 @@
         <link rel="stylesheet" href="css/styles.css">
         <link rel="icon" href="https://www.flaticon.com/svg/static/icons/svg/3983/3983278.svg">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Redressed&family=Sacramento&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap" rel="stylesheet">
+        
     </head>
     <body>
-        <div class="top-container">
+
+      <div class="navbar">
+        <ul>
+          <li><a href="#topr">Home</a></li>
+          <li><a href="#BIO">About</a></li>
+          <li><a href="#skill-bio">Skills</a></li>
+          <li><a href="#contact-link">Contact</a></li>
+        </ul>
+
+      </div>
+
+        <div class="top-container" id="top">
             <img class = "top-cloud" src="images/cloud.png" alt="cloud-image">
             <h1>I'm Farhan</h1>
             <p class="subtitle"> <strong>a <span class="pro">pro</span>grammer.</strong></p>
@@ -17,44 +30,61 @@
             <img src="images/mountain.png" alt="mountain-image">
         </div>
 
-        <div class="middle-container">
+        <div class="middle-container" id="BIO">
             <div class="profile">
               <img  class="profile-image" src="images/circle-cropped.png"alt="">
-              <h2>Hello.</h2>
-              <p class="intro" >My Name is Farhan Javed and I am a Developer.</p>
+              <h2>Hello</h2>
+              <p class="intro" >My Name is Farhan Javed and I am a Developer. Innovative tech mind with 3 years of experience working as a computer programmer (student). Capable of working with a variety of technology and software solutions. Can be a valuable team member who has experience diagnosing problems and developing solutions. 
+                 Talented leader with unique ideas and a history of successful contributions in the field.</p>
             </div>
             <hr>
-            <div class="skills">
-              <h2>My Skills.</h2>
+            <div class="skills" id="skill-bio">
+              <h2>My Skills</h2>
               <div class="skill-row">
                 <img class="python-image" src="images/circle-cropped-python.png"alt="python">
                 <h3>Python</h3>
-                <p>I love programming languages. And without a doubt Python is one of my favorite programming languages and I have experience in python for almost 3 years.</p>
+                <p>Without a doubt Python is one of my favorite programming language. Also I have solid background and advanced knowledge in computer development software including C++, C, Javascript.</p>
                 <br>
                 <br>
               </div>
               <div class="skill-row">
                 <img class="web-image" src="images/circle-cropped-web.png"alt="web">
                 <h3>Web Developer</h3>
-                <p>I have recently got an interest in web developing. I am not Great at it but I'm getting there.</p>
+                <p class="info">I have recently got an interest in web developing. I am not Great at it but I'm getting there.</p>
                 <br>
                 <br>
               </div>
+
+              <div class="skill-row">
+                <img class="git-image" src="images/git-circle.png" alt="git">
+                <h3>Git & GitHub</h3>
+                <p class="git"> I have experience in git and github. I can easily collaborate with others on Github and I know all the tricks to use Git and GitHub.</p>
+
+              </div>
             </div>
             <hr>
-            <div class="contact-me">
+
+            <div class="quote">
+              <h1 class="quote-h1">Quote:</h1>
+              <p class="quote-p">“people [who are] thinking about things other than making the best product, never make the best product.”</p>
+            </div>
+            <hr>
+
+            <div class="contact-me" id="contact-link">
               <h2>Get In Touch</h2>
               <h3>If you love burgers as much as i do.</h3>
               <p class="outro" >Love burgers as much as i do. Let's talk about how awesome they are! We can code while we eat burgers.</p>
-              <a class="btn" href="mailto:prog14936@email.com">CONTACT ME</a>
+              <a class="btn" href="mailto:prog14936@gmail.com">CONTACT ME</a>
             </div>
           </div>
           
+
           <div class="bottom-container">
             <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
             <a class="footer-link" href="https://twitter.com/">Twitter</a>
             <a class="footer-link" href="https://farhanjavedjatt.github.io/CV/">Website</a>
             <p class="copyright" > © 2021 Farhan Javed.</p>
           </div>
+          
     </body>
 </html>
