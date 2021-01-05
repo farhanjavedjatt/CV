@@ -3,7 +3,7 @@ body {
     text-align: center;
     font-family: "Merriweather",sans-serif;
     font-size: 16px;
-    color: #40514E;
+    background-color: #E4F9F5;
 }
 
 h1 {
@@ -79,6 +79,7 @@ h3 {
 
 .middle-container {
     padding-bottom: 50px;
+    background-color: white;
 }
 
 .intro {
@@ -137,7 +138,7 @@ hr {
 .bottom-container {
     background-color: #66BFBF;
     padding: 50px 0 20px;
-    margin-top: 50px;
+    
 }
 
 a {
@@ -232,10 +233,15 @@ ul {
         width : 100%;
     }
 
+    ul {
+        text-align: center;
+        position: relative;
+        display: inline-block; 
+    }
+
     li a {
         padding: 0px;
         font-size: 10px;
-        
     }
     .profile-image {
         width: 25%;
@@ -282,6 +288,9 @@ ul {
 
     .contact-me {
         width: 70%;
+    }
+    .navbar {
+        text-align: center;
     }
 }   
 
