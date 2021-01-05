@@ -208,7 +208,7 @@ ul {
     background-color: #111111;
   }
 
-@media (max-width:1024px) {
+@media (max-width:615px) {
 
     .top-container {
         padding-top: 60px;
@@ -233,7 +233,7 @@ ul {
     }
 
     li a {
-
+        padding: 0px;
         font-size: 10px;
         
     }
@@ -277,7 +277,11 @@ ul {
     }
     .btn {
         font-size: small;
-        
+        margin: auto;
+    }
+
+    .contact-me {
+        width: 70%;
     }
 }   
 
