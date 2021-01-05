@@ -163,7 +163,7 @@ a:hover {
 
 .quote-p {
     font-size:2rem;
-    padding: 0 15%;
+    padding: 0 15% 5%;
     text-align: center;
     font-weight: bolder;
     font-family: 'Montserrat';
@@ -207,3 +207,76 @@ ul {
   li a:hover {
     background-color: #111111;
   }
+
+@media (max-width:1024px) {
+
+    .top-container {
+        padding-top: 60px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .top-cloud {
+        position: static;
+        margin : 0 0 3% 40%;
+    }
+
+    .bottom-cloud {
+        position: static;
+        margin : 0 40% 3% 0%;
+    }
+
+    .mountain-image {
+        width : 100%;
+    }
+
+    li a {
+
+        font-size: 14px;
+        
+    }
+    .profile-image {
+        width: 25%;
+    }
+
+    .intro {
+        font-size:medium;
+        width: 70%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .skill-row {
+        width: 70%;
+    }
+    .git-image {
+        width: 30%;
+    }
+
+    .web-image {
+        width: 30%;
+    }
+    .python-image {
+        width: 30%;
+    }
+    .quote-h1 {
+        font-size: 2rem;
+    }
+    .quote-p {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    .outro {
+        font-size: small;
+    }
+    .btn {
+        font-size: medium;
+    }
+}   
+
