@@ -6,8 +6,6 @@ body {
     color: #40514E;
 }
 
-
-
 h1 {
     margin-top: 0;
     font-size: 5.125rem;
@@ -194,21 +192,20 @@ ul {
 
   }
   
-li {
+  li {
     float: left;
-}
-
-li a {
+  }
+  
+  li a {
     display :block;
     color: black;
     text-align: center;
     padding: 16px;
     text-decoration: none;
-}
-
-li a:hover {
+  }
+  
+  li a:hover {
     background-color: #111111;
-<<<<<<< HEAD
   }
 
 @media (max-width:1024px) {
@@ -237,7 +234,7 @@ li a:hover {
 
     li a {
 
-        font-size: 14px;
+        font-size: 10px;
         
     }
     .profile-image {
@@ -279,10 +276,8 @@ li a:hover {
         font-size: small;
     }
     .btn {
-        font-size: medium;
+        font-size: small;
+        
     }
 }   
 
-=======
-}
->>>>>>> f98e39695430eefe8cb0a8e57fb6939fc3d417eb
